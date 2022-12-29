@@ -1,4 +1,4 @@
-FROM node:16.14-alpine
+FROM node:16.18-alpine
 
 RUN npm install express
 RUN npm install pug --save
